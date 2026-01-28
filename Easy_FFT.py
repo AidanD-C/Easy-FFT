@@ -154,3 +154,10 @@ def IFFT_2D(function: Callable[[float, float], complex], box_width: float, dk: i
     k = np.stack((K1, K2), axis=-1)
 
     return (x, k, f)
+
+
+def vectorized_FFT_ND() -> tuple[NDArray, NDArray, NDArray]:
+    pass
+
+def vectorized_IFFT_ND() -> tuple[NDArray, NDArray, NDArray]:
+    pass

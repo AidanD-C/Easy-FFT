@@ -1,6 +1,6 @@
 # Easy-FFT
 ### About:
-Easy-FFT is a collection of python functions which make it easier for physicists to perform Fourier transforms in Python. Easy-FFT contains functions to perform Fourier transforms in 1D,2D and 3D and hopefully will be capable of N dimensional Fourier transforms soon.
+Easy-FFT is a collection of python functions which make it easier for physicists to perform Fourier transforms in Python. Easy-FFT contains functions to perform Fourier transforms in 1D, 2D and hopefully will be capable of N dimensional Fourier transforms soon.
 
 ### Workflow:
 Here's an example of a basic program which uses Easy-FFT:
@@ -43,7 +43,7 @@ plt.show()
 ```
 Which outputs:
 <p align="center">
-  <img src="Example/Example Output.png" alt="Image 1" width="27%">
+  <img src="Example/Example Output.png" alt="Image 1" width="100%">
 </p>
 
 ### Installation:
