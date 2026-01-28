@@ -43,7 +43,7 @@ plt.show()
 ```
 Which outputs:
 <p align="center">
-  <img src="Example/Example_Output.png" alt="Image 1" width="27%">
+  <img src="Example/Example Output.png" alt="Image 1" width="27%">
 </p>
 
 ### Installation:
