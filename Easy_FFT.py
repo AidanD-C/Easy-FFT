@@ -68,7 +68,7 @@ def IFFT_1D(function: Callable[[float], complex], L: float, dk: float) -> tuple[
     return (x, k, f)
 
 
-def FFT_2D(function: Callable[[float, float], complex], box_width: float, dx: int) -> tuple[NDArray, NDArray, NDArray]:
+def FFT_2D(function: Callable[[float, float], complex], box_width: float, dx: float) -> tuple[NDArray, NDArray, NDArray]:
     """
     Docstring TBD
     """
@@ -112,7 +112,7 @@ def FFT_2D(function: Callable[[float, float], complex], box_width: float, dx: in
     return (x, k, f_hat)
 
 
-def IFFT_2D(function: Callable[[float, float], complex], box_width: float, dk: int) -> tuple[NDArray, NDArray, NDArray]:
+def IFFT_2D(function: Callable[[float, float], complex], box_width: float, dk: float) -> tuple[NDArray, NDArray, NDArray]:
     """
     Docstring TBD
     """
@@ -156,8 +156,11 @@ def IFFT_2D(function: Callable[[float, float], complex], box_width: float, dk: i
     return (x, k, f)
 
 
-def vectorized_FFT_ND() -> tuple[NDArray, NDArray, NDArray]:
+def vectorized_FFT_ND(dimension: int, function: Callable[[NDArray], complex], box_width: float, dx: float) -> tuple[NDArray, NDArray, NDArray]:
+    """
+    function must be "vectorized" meaning it can take numpy arrays as inputs
+    """
     pass
 
-def vectorized_IFFT_ND() -> tuple[NDArray, NDArray, NDArray]:
+def vectorized_IFFT_ND(dimension: int, function: Callable[[NDArray], complex], box_width: float, dk: float) -> tuple[NDArray, NDArray, NDArray]:
     pass
