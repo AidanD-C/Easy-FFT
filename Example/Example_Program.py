@@ -1,3 +1,8 @@
+"""
+To run this example, please move this file (Example_Program.py) into the same directory as Easy_FFT.py
+"""
+
+
 import numpy as np
 from Easy_FFT import FFT_1D
 
