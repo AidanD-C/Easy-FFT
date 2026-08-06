@@ -2,12 +2,10 @@
 To run this example, please move this file (Example_Program.py) into the same directory as Easy_FFT.py
 """
 
-
 import numpy as np
 from Easy_FFT import FFT_1D
 
-def func(x):
-    return np.exp(-(x**2))
+func = lambda x: np.exp(-(x**2))
 
 x, k, f_hat = FFT_1D(function=func, L=100, dx=0.01)
 
@@ -37,4 +35,4 @@ ax[1].legend()
 
 fig.tight_layout(pad=3.0)
 
-plt.show()
+plt.savefig("Example_1_output.png", dpi=100)

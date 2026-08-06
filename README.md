@@ -43,8 +43,10 @@ plt.show()
 ```
 Which outputs:
 <p align="center">
-  <img src="Example/Example Output.png" alt="Image 1" width="100%">
+  <img src="Examples/Example_1_output.png" alt="Image 1" width="100%">
 </p>
+
+Another example where a 2D FFT is performed can be found in the Examples folder.
 
 ### Installation:
 To begin the installation, we need to clone this repository onto your computer. First, open your terminal and navigate to a folder where you want to put this repository by entering the following in your terminal: 
